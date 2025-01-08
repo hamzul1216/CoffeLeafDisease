@@ -1,1 +1,5 @@
-# CoffeLeafDisease
+# Coffe Leaf Disease Classification 
+
+Convolutional Neural Network (CNN) is a deep learning algorithm commonly used in pattern recognition for digital images. This research implements two CNN architectures, namely VGG16 and a custom model, for classifying diseases in coffee plant leaves. The coffee leaf image dataset was obtained from Kaggle and processed using data augmentation techniques to address class imbalance. The CNN model was trained using a transfer learning approach with VGG16 and compared with a custom model specifically designed with convolutional layers tailored to the coffee leaf disease dataset. The results indicate that the use of data augmentation and fine-tuning improves the model's accuracy. The VGG16 model achieved an accuracy of 97%, while the custom model reached 91% accuracy on the validation data. This study demonstrates that both models can be used for automatic detection of coffee leaf diseases, with VGG16 delivering slightly better results.
+
+Keywords: CNN, VGG16, Classification, Kaggle, Transfer Learning, Data Augmentation.
